@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Hyderabadi Biryani",
+        "price": 349,
+        "rating": 4.7,
+        "reviews": 200,
+        "description": "Aromatic rice cooked with marinated chicken, spices, and herbs. A royal treat from Hyderabad.",
+        "image": "https://www.eatingwell.com/thmb/m5xUzIOmhWSoXZnY-oZcO9SdArQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/article_291139_the-top-10-healthiest-foods-for-kids_-02-4b745e57928c4786a61b47d8ba920058.jpg"
+    },
+    {
+        "name": "Paneer Butter Masala",
+        "price": 199,
+        "rating": 4.5,
+        "reviews": 180,
+        "description": "Cubes of paneer simmered in a creamy tomato gravy, perfect with naan or rice.",
+        "image": "https://www.eatingwell.com/thmb/m5xUzIOmhWSoXZnY-oZcO9SdArQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/article_291139_the-top-10-healthiest-foods-for-kids_-02-4b745e57928c4786a61b47d8ba920058.jpg"
+    },
+    {
+        "name": "Butter Naan",
+        "price": 49,
+        "rating": 4.4,
+        "reviews": 150,
+        "description": "Soft, fluffy naan topped with butter, a perfect companion to any curry.",
+        "image": "https://www.eatingwell.com/thmb/m5xUzIOmhWSoXZnY-oZcO9SdArQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/article_291139_the-top-10-healthiest-foods-for-kids_-02-4b745e57928c4786a61b47d8ba920058.jpg"
+    }
+]

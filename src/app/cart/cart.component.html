@@ -1,0 +1,52 @@
+<div class="max-w-3xl mx-auto mt-6 px-4">
+  <div class="text-right mb-6">
+    <h3 class="text-2xl font-semibold text-gray-800">
+      Total Price: ₹{{ totalPrice }}
+    </h3>
+  </div>
+  <div *ngIf="cartItems.length === 0" class="text-center">
+    <img src="empty-cart.png" alt="Empty cart" class="mx-auto w-48 mb-4" />
+    <p class="text-xl font-semibold mb-2">Your cart is empty</p>
+    <p class="text-gray-600 mb-6">
+      You can go to the home page to view more restaurants.
+    </p>
+    <button
+      class="bg-orange-500 text-white px-6 py-2 rounded hover:bg-orange-600"
+    >
+      See Restaurants Near You
+    </button>
+  </div>
+  <div
+    *ngFor="let pizza of cartItems"
+    class="flex items-start bg-white shadow-lg rounded-lg p-4 mb-6"
+  >
+    <div class="flex-1">
+      <h3 class="text-lg font-semibold text-gray-800">{{ pizza.name }}</h3>
+      <p class="text-gray-700 font-medium mb-1">₹{{ pizza.price }}</p>
+      <div class="flex items-center mb-2">
+        <p class="text-green-600 text-sm font-semibold mr-2">
+          ⭐ {{ pizza.rating }}
+        </p>
+        <span class="text-gray-400 text-sm">({{ pizza.reviews }})</span>
+      </div>
+      <p class="text-gray-600 text-sm mb-2">{{ pizza.description }}</p>
+      <p class="text-gray-800 text-sm font-medium">
+        Quantity: {{ pizza.quantity }}
+      </p>
+    </div>
+
+    <div class="flex flex-col items-center ml-4">
+      <img
+        [src]="pizza.image"
+        alt="{{ pizza.name }}"
+        class="w-24 h-24 rounded-md object-cover mb-2"
+      />
+      <button
+        (click)="removeFromCart(pizza.name)"
+        class="bg-red-500 text-white px-4 py-1 rounded hover:bg-red-600"
+      >
+        Remove
+      </button>
+    </div>
+  </div>
+</div>

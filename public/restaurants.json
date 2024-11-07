@@ -1,0 +1,52 @@
+[
+  {
+      "name": "KFC",
+      "rating": 4.3,
+      "deliveryTime": "15-20 mins",
+      "cuisine": "Burgers, Fast Food, Rolls & Wraps",
+      "location": "Vasanthapuram",
+      "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/11/5/d461f061-a784-488c-9430-385ac01f3680_806219.JPG",
+      "offer": "Free delivery",
+      "onClick": "menu/kfc"
+  },
+  {
+      "name": "Domino's Pizza",
+      "rating": 4.4,
+      "deliveryTime": "20-25 mins",
+      "cuisine": "Pizzas, Italian, Pastas, Desserts",
+      "location": "Kosapet",
+      "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/10/24/4bade187-edd0-4d26-af7c-dc5ff015680b_72850.JPG",
+      "offer": "Free delivery",
+      "onClick": "menu/dominos"
+  },
+  {
+      "name": "McDonald's",
+      "rating": 4.5,
+      "deliveryTime": "30-35 mins",
+      "cuisine": "Burgers, Beverages, Cafe",
+      "location": "Selvam Nagar, Old Katapadi",
+      "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/9/18/b53734fa-eff7-4af9-ac3d-65d1107c9348_496822.jpg",
+      "offer": "Free delivery",
+      "onClick": "menu/mcdonalds"
+  },
+  {
+      "name": "Burger King",
+      "rating": 4.4,
+      "deliveryTime": "30-35 mins",
+      "cuisine": "Burgers, American",
+      "location": "Vellore",
+      "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/6/11/a5cee281-c25f-494a-8cab-ba7f49acfb03_775609.JPG",
+      "offer": "Free delivery",
+      "onClick": "menu/burgerking"
+  },
+  {
+      "name": "The Vellore Kitchen Takeaway",
+      "rating": 4.4,
+      "deliveryTime": "15-20 mins",
+      "cuisine": "Biryani, South Indian, Chinese",
+      "location": "Near Eye Hospital",
+      "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/mxocfkxucltxeulpenze",
+      "offer": "Free delivery",
+      "onClick": "menu/vellore-kitchen"
+  }
+]

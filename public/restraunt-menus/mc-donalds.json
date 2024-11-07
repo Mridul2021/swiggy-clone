@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Big Mac",
+        "price": 229,
+        "rating": 4.6,
+        "reviews": 300,
+        "description": "Two 100% pure beef patties with lettuce, cheese, pickles, onions, and special sauce.",
+        "image": "https://www.eatingwell.com/thmb/m5xUzIOmhWSoXZnY-oZcO9SdArQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/article_291139_the-top-10-healthiest-foods-for-kids_-02-4b745e57928c4786a61b47d8ba920058.jpg"
+    },
+    {
+        "name": "McChicken",
+        "price": 149,
+        "rating": 4.3,
+        "reviews": 120,
+        "description": "Crispy chicken patty topped with lettuce and mayo on a toasted bun.",
+        "image": "https://www.eatingwell.com/thmb/m5xUzIOmhWSoXZnY-oZcO9SdArQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/article_291139_the-top-10-healthiest-foods-for-kids_-02-4b745e57928c4786a61b47d8ba920058.jpg"
+    },
+    {
+        "name": "French Fries",
+        "price": 99,
+        "rating": 4.5,
+        "reviews": 250,
+        "description": "Golden, crispy French fries, made from premium potatoes.",
+        "image": "https://www.eatingwell.com/thmb/m5xUzIOmhWSoXZnY-oZcO9SdArQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/article_291139_the-top-10-healthiest-foods-for-kids_-02-4b745e57928c4786a61b47d8ba920058.jpg"
+    }
+]

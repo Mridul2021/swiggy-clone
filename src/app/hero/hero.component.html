@@ -1,0 +1,37 @@
+<div class="max-w-7xl mx-auto p-6">
+  <h2 class="text-2xl font-semibold mb-4">Top restaurant chains in Vellore</h2>
+
+  <div class="flex space-x-4 overflow-x-auto no-scrollbar">
+    <a
+      *ngFor="let restaurant of restaurants"
+      [href]="restaurant.onClick"
+      class="flex-none w-72 bg-white rounded-lg shadow-md overflow-hidden transform transition-transform duration-200 hover:scale-90"
+    >
+      <div class="relative">
+        <img
+          [src]="restaurant.image"
+          [alt]="restaurant.name"
+          class="w-full h-40 object-cover"
+        />
+        <div
+          class="absolute top-2 left-2 bg-red-500 text-white px-2 py-1 text-xs font-semibold rounded"
+        >
+          {{ restaurant.offer }}
+        </div>
+      </div>
+      <div class="p-4">
+        <h3 class="font-semibold text-lg">{{ restaurant.name }}</h3>
+        <p class="text-sm text-gray-600">
+          {{ restaurant.cuisine }} • {{ restaurant.location }}
+        </p>
+        <div class="flex items-center text-green-500 mt-2">
+          <span class="text-sm"
+            >{{ restaurant.rating }} • {{ restaurant.deliveryTime }}</span
+          >
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+<app-restraunt></app-restraunt>
+<app-footer></app-footer>

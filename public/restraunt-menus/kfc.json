@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Chicken Bucket",
+        "price": 499,
+        "rating": 4.5,
+        "reviews": 152,
+        "description": "A bucket full of deliciously crispy fried chicken.",
+        "image": "https://www.eatingwell.com/thmb/m5xUzIOmhWSoXZnY-oZcO9SdArQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/article_291139_the-top-10-healthiest-foods-for-kids_-02-4b745e57928c4786a61b47d8ba920058.jpg"
+    },
+    {
+        "name": "Zinger Burger",
+        "price": 179,
+        "rating": 4.3,
+        "reviews": 89,
+        "description": "Spicy chicken burger with a crispy patty, lettuce, and signature sauce.",
+        "image": "https://www.eatingwell.com/thmb/m5xUzIOmhWSoXZnY-oZcO9SdArQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/article_291139_the-top-10-healthiest-foods-for-kids_-02-4b745e57928c4786a61b47d8ba920058.jpg"
+    }
+]

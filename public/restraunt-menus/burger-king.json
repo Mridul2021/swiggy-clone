@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Whopper",
+        "price": 199,
+        "rating": 4.4,
+        "reviews": 200,
+        "description": "Our signature Whopper with flame-grilled beef, tomatoes, lettuce, mayo, and pickles.",
+        "image": "https://www.eatingwell.com/thmb/m5xUzIOmhWSoXZnY-oZcO9SdArQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/article_291139_the-top-10-healthiest-foods-for-kids_-02-4b745e57928c4786a61b47d8ba920058.jpg"
+    },
+    {
+        "name": "French Fries",
+        "price": 89,
+        "rating": 4.1,
+        "reviews": 75,
+        "description": "Crispy golden fries, perfectly salted and served hot.",
+        "image": "https://www.eatingwell.com/thmb/m5xUzIOmhWSoXZnY-oZcO9SdArQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/article_291139_the-top-10-healthiest-foods-for-kids_-02-4b745e57928c4786a61b47d8ba920058.jpg"
+    }
+]
